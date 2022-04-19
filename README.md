@@ -1,6 +1,8 @@
 # FMPG_ANIM
 本程式用於合成定格動畫的圖片序列
+
 ![image)(https://github.com/Maxspace1024/fmpg_anim/blob/master/img/gui_1.png)
+
 ![image)(https://github.com/Maxspace1024/fmpg_anim/blob/master/img/gui_2.png)
 
 ## 備註
