@@ -1,0 +1,141 @@
+﻿<Window x:Class="fmpg_gui.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:fmpg_gui"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        Title="定格動畫轉檔程式" Height="270" Width="500">
+    <TabControl>
+        <TabItem Header="輸出影片">
+            <StackPanel Orientation="Vertical"
+                        Background="WhiteSmoke">
+                <Grid Margin="25,30,25,15">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel Grid.Column="0"
+                                Grid.ColumnSpan="2"
+                                Orientation="Horizontal">
+                        <Label  Content="幀數"/>
+                        <TextBox x:Name="framps" Width="60"/>
+                    </StackPanel>
+
+                    <Label  Grid.Column="2"
+                    Content="框架速度"/>
+                    <ComboBox Grid.Column="3"
+                      x:Name="frameSpeed">
+                        <ComboBoxItem Content="24"/>
+                        <ComboBoxItem Content="30"/>
+                    </ComboBox>
+                </Grid>
+                <Grid Margin="25,15,25,15">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0"
+                        Grid.ColumnSpan="4"
+                        Orientation="Horizontal">
+                        <Label Content="檔案名稱格式"/>
+                        <TextBox x:Name="FileNamefmt"
+                                 Width="163"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="5"
+                                Grid.ColumnSpan="2"
+                                Orientation="Horizontal"
+                                Margin="10,0">
+                        <RadioButton Grid.Column="5"
+                                     x:Name="extPng"
+                                     Content=".png"
+                                     GroupName="extName"
+                                     Margin="5"/>
+                        <RadioButton Grid.Column="6"
+                                     x:Name="extJpg"
+                                     Content=".jpg"
+                                     GroupName="extName"
+                                     Margin="5"/>
+                    </StackPanel>
+                    
+                </Grid>
+                <Grid Margin="25,15,25,15">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0"
+                        Grid.ColumnSpan="4"
+                        Orientation="Horizontal">
+                        <Label Content="輸出檔案名稱"/>
+                        <TextBox x:Name="FileNameOut"
+                         Width="163"/>
+                    </StackPanel>
+                    <Label Grid.Column="4"
+                           Content=".mp4"/>
+
+                    <Button Grid.Column="5"
+                    Grid.ColumnSpan="2"
+                    x:Name="btCvt"
+                    Content="Convert" Margin="15,0" Click="btCvt_Click"/>
+                </Grid>
+
+            </StackPanel>
+        </TabItem>
+        <TabItem Header="圖片重新命名">
+            <Grid Margin="60,40">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+ 
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Grid.Row="0"
+                            Grid.Column="0"
+                            Grid.ColumnSpan="2"
+                            Orientation="Horizontal">
+                    <Label 
+                       Content="檔案類型"
+                       VerticalContentAlignment="Center"
+                       HorizontalContentAlignment="Center"/>
+
+                    <ComboBox   Margin="10,18"
+                                x:Name="fType"
+                                Width="70">
+                        <ComboBoxItem Content="*.png"/>
+                        <ComboBoxItem Content="*.jpg"/>
+                    </ComboBox>
+                </StackPanel>
+                
+                <Button Grid.Column="3"
+                        Grid.Row="2"
+                        Margin="15,18"
+                        x:Name="btRename"
+                        Content="Rename" Click="btRename_Click"/>
+            </Grid>
+        </TabItem>
+    </TabControl>
+</Window>

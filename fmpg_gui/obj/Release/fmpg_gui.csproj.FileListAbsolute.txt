@@ -1,0 +1,15 @@
+C:\Users\Pi\Desktop\fmpg_gui\fmpg_gui\bin\Release\fmpg_gui.exe.config
+C:\Users\Pi\Desktop\fmpg_gui\fmpg_gui\bin\Release\fmpg_gui.exe
+C:\Users\Pi\Desktop\fmpg_gui\fmpg_gui\bin\Release\fmpg_gui.pdb
+C:\Users\Pi\Desktop\fmpg_gui\fmpg_gui\obj\Release\fmpg_gui.csprojAssemblyReference.cache
+C:\Users\Pi\Desktop\fmpg_gui\fmpg_gui\obj\Release\MainWindow.g.cs
+C:\Users\Pi\Desktop\fmpg_gui\fmpg_gui\obj\Release\App.g.cs
+C:\Users\Pi\Desktop\fmpg_gui\fmpg_gui\obj\Release\fmpg_gui_MarkupCompile.cache
+C:\Users\Pi\Desktop\fmpg_gui\fmpg_gui\obj\Release\fmpg_gui_MarkupCompile.lref
+C:\Users\Pi\Desktop\fmpg_gui\fmpg_gui\obj\Release\MainWindow.baml
+C:\Users\Pi\Desktop\fmpg_gui\fmpg_gui\obj\Release\fmpg_gui.g.resources
+C:\Users\Pi\Desktop\fmpg_gui\fmpg_gui\obj\Release\fmpg_gui.Properties.Resources.resources
+C:\Users\Pi\Desktop\fmpg_gui\fmpg_gui\obj\Release\fmpg_gui.csproj.GenerateResource.cache
+C:\Users\Pi\Desktop\fmpg_gui\fmpg_gui\obj\Release\fmpg_gui.csproj.CoreCompileInputs.cache
+C:\Users\Pi\Desktop\fmpg_gui\fmpg_gui\obj\Release\fmpg_gui.exe
+C:\Users\Pi\Desktop\fmpg_gui\fmpg_gui\obj\Release\fmpg_gui.pdb
